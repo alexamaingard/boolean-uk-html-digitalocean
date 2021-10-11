@@ -80,7 +80,7 @@ input[type=email], input[type=password]{
 
 .profile-banner {
     height: 40vh;
-    background-image: url(images/digitalocean-banner.svg);
+    background-image: url("images/digitalocean-banner.svg");
     background-size: cover;
     padding: 10px 220px;
     display: grid;
