@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Ocean</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <img id="dg-logo" src="/icons/logo.svg" alt="dg-logo">
+            <div class="header-left">
+                <label class="header-label" for="products">
+                    <select name="products" id="products">
+                    <option value="Products">Products</option>
+                    <option value="Products">Products</option>
+                    <option value="Products">Products</option>
+                    <option value="Products">Products</option>
+                    </select>                    
+                </label>
+                <a href="">Customers</a>
+                <label class="header-label" for="community">
+                    <select name="community" id="community">
+                        <option value="Community">Community</option>
+                        <option value="Community">Community</option>
+                        <option value="Community">Community</option>
+                        <option value="Community">Community</option>
+                    </select>                    
+                </label>
+                <a href="">Pricing</a>                
+            </div>
+            <div class="header-right">
+                <a href="">Docs</a>
+                <label class="header-label" for="support">
+                    <select name="support" id="support">
+                        <option value="Support">Support</option>
+                        <option value="Support">Support</option>
+                        <option value="Support">Support</option>
+                        <option value="Support">Support</option>
+                    </select>
+                </label>
+                <a href="">Login</a>
+                <button type="submit">Sign Up</button>                
+            </div>
+        </header>
+        <section class="profile-banner">
+            <div class="dg-brand">
+                <h1>The simplest cloud platform for developers 
+                    & teams
+                </h1>
+                <p>Deploy, manage, and scale cloud applications faster 
+                    and more efficiently on DigitalOcean. We make managing 
+                    infrastructure easy for teams and businesses, whether you're 
+                    running one virtual machine or ten thousand.
+                </p>
+            </div>
+            <div class="sing-up-form">
+                <form class="profile-banner-form">
+                    <h3>Deploy your app in seconds.</h3>
+                    <h3 class="blue-h3">Get started now.</h3> 
+                    <input required type="email" placeholder="Email"> 
+                    <input required type="password" placeholder="Password"> 
+                    <button id="create-account" type="submit">Create your account</button> 
+                    <button id="google-sign-in" type="submit"> <img id="google-logo" src="/icons/google-logo.png" alt="google-logo">
+                        Sign up with google</button> 
+                    <p>By signing up you agree to the <a href="">Terms of Service.</a></p>
+                </form>
+            </div>
+        </section>
+        <section class="partners">
+            <p class="upper">Innovative businesses trust digitalocean</p>
+            <div class="partners-logos">
+                <img src="icons/docker.png" alt="docker">
+                <img id="gitlab" src="icons/gitlab.jpg" alt="gitlab">
+                <img src="icons/slack.png" alt="slack">
+                <img src="icons/hashicorp.png" alt="hashicorp">
+                <img src="icons/hashicorp.png" alt="hashicorp">
+                <img src="icons/splunk.png" alt="splunk">
+            </div>
+            <a href="">View customer stories &#12297;</a>
+        </section>
+        <section class="dg-services">
+            <div class="dg-service">
+                <h2>Deploy and scale seamlessly</h2>
+                <h4>Our optimized configutarion process saves your team time 
+                    when running and scaling distributed applications, AI & 
+                    machine learning workloads, hosted services, client 
+                    websites, or CI/CD environments.
+                </h4>
+                <div class="dg-service-bottom">
+                    <div class="dg-service-left">
+                        <ul>
+                            <li>Deploy</li>
+                            <li>Manage</li>
+                            <li>Secure</li>
+                            <li>Scale</li>
+                            <li>Monitor</li>
+                        </ul>
+                    </div>
+                    <div class="dg-service-right">
+                        <div class="dg-service-right-opt">
+                            <img src="icons/cluster-deploy.svg" alt="cluster">
+                            <h4>Cluster deployments</h4>
+                            <p>Provision multiple Droplets (virtual machines) 
+                                in seconds with our control panel, CLI, or 
+                                directly against our API.
+                            </p>
+                        </div>
+                        <div class="dg-service-right-opt">
+                            <img src="icons/optimized-compute.svg" alt="computer-types">
+                            <h4>Optimized compute types</h4>
+                            <p>Get the compute resources you need with 
+                                Standard or Optimized Droplets.
+                            </p>
+                        </div>
+                        <div class="dg-service-right-opt">
+                            <img src="icons/one-click.svg" alt="one-click-app">
+                            <h4>One-Click apps</h4>
+                            <p>Skip the install and configuration process 
+                                with pre-built open source images supporting 
+                                Rails, Cassandra, Docker and more.
+                            </p>
+                        </div>
+                        <div class="dg-service-right-opt">
+                            <img src="icons/global.svg" alt="global">
+                            <h4>Global availability</h4>
+                            <p>Deploy to any of our data center regions around 
+                                the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dg-service">
+                <h2>Designed for developers</h2>
+                <h4>Build more and spend less time managing your infrastructure 
+                    with our easy-to-use control panel and API.
+                </h4>
+                <div class="slide-images">
+                    <img class="slide" src="images/slides/screenshot-1.jpg" alt="Digital-Ocean-screenshot">
+                    <p>Create compute servers in 55 seconds or less</p>
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="dg-service">
+                <h2>The features your business needs</h2>
+                <div class="features">
+                    <div class="feature">
+                        <img src="icons/pred-pricing.svg" alt="pricing">
+                        <h4>Predictable pricing</h4>
+                        <p>Leave complex pricing structures behind. Always know 
+                            what you'll pay per month with a flat, industry-leading 
+                            pricing structure.
+                        </p>
+                        <a href="">Pricing &#12297;</a>
+                    </div>
+                    <div class="feature">
+                        <img src="/icons/world-class.svg" alt="service">
+                        <h4>World-class service</h4>
+                        <p>Free round-the-clock technical support for all customers. 
+                            You'll feel the love.
+                        </p>
+                        <a href="">Support &#12297;</a>
+                    </div>
+                    <div class="feature">
+                        <img src="icons/reliable-platform.svg" alt="security">
+                        <h4>Reliable platform</h4>
+                        <p>More than 100,000 developer teams worldwide trust DigitalOcean 
+                            to support their business with a 99.99% uptime SLA for all 
+                            services.
+                        </p>
+                        <a href="">Security &#12297;</a>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section class="customer-regions">
+            <h2>Service your customers around the world from 12 regions.</h2>
+            <div class="regions">
+                <ul class="regions-list">
+                    <li class="region">
+                        <div class="region-code">AMS2</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>                    
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                    <li class="region">
+                        <div class="region-code">AMS3</div>
+                        <div class="location">Amsterdam, Netherlands</div>
+                        <div class="test-speed">Test speed &#12297;</div>
+                    </li>
+                </ul>
+            </div>
+        </section>  
+        <section class="dg-services">
+            <div class="dg-service">
+                <h2>Developer teams love DigitalOcean</h2>
+                <div class="testimonies">
+                    <img src="/images/slides/testimonies/testimony.png" alt="testimony">
+                    <a href="">Read story &#12297;</a>
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+
+        </section>    
+        <section class="get-started">
+            <h2>Get started now.</h2>
+            <button type="button">Create your account</button>
+        </section>   
+        <footer>
+            <div class="footer-left">
+                <img src="/icons/dg-logo-square.svg" alt="dg-logo">
+                <p id="copyright">&#169; 2018 DigitalOcean, LLC. All rights reserved</p>
+                <p class="color-change">Proudly made in NY</p>
+                <div class="social-media-icons">
+                    <img src="/icons/social-media/twitter.svg" alt="twitter-logo">
+                    <img src="/icons/social-media/facebook.svg" alt="facebook-logo">
+                    <img src="/icons/social-media/instagram.svg" alt="instagram-logo">
+                    <img src="/icons/social-media/youtube.svg" alt="youtube-logo">
+                    <img src="/icons/social-media/linkedin.svg" alt="linkedin-logo">
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-list">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About</li>
+                        <li>Leadership</li>
+                        <li>Link</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Partner Network</li>
+                        <li>Referral Program</li>
+                        <li>Events</li>
+                        <li>Press</li>
+                        <li>Legal & Security</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Products</h4>
+                    <ul>
+                        <li>Droplets</li>
+                        <li>Spaces</li>
+                        <li>Kubernetes</li>
+                        <li>Load Balancers</li>
+                        <li>Block Storage</li>
+                        <li>Tools & Integrations</li>
+                        <li>One-Click Apps</li>
+                        <li>API</li>
+                        <li>Pricing</li>
+                        <li>Documentation</li>
+                        <li>Release Notes</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Community</h4>
+                    <ul>
+                        <li>Tutorials</li>
+                        <li>Meetups</li>
+                        <li>Q&A</li>
+                        <li>Write for Donations</li>
+                        <li>Droplets for Demos</li>
+                        <li>Hatch</li>
+                        <li>Shop Swag</li>
+                        <li>Research Program</li>
+                        <li>Currents Research</li>
+                        <li>Open Source</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>Contact Support</li>
+                        <li>FAQ</li>
+                        <li>Network Status</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
